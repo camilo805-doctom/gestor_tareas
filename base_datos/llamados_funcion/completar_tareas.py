@@ -1,7 +1,7 @@
 import sqlite3
 
 def completar_tarea():
-    with sqlite3.connect("C:\Users\POWER\gestor_tareas\gestor.db") as completar:
+    with sqlite3.connect("C:\Users\POWER\gestor_tareas_2") as completar:
         try:
             consulta_cursor = completar.cursor()
             tarea_completada = str(input("Ingrese el titulo de la tarea completada: "))

@@ -1,7 +1,7 @@
 import sqlite3
 
 def eliminar_tareas():
-    with sqlite3.connect("C:\Users\POWER\gestor_tareas\gestor.db") as eliminar:
+    with sqlite3.connect("C:\Users\POWER\gestor_tareas_2") as eliminar:
         try:
             consulta_cursor = eliminar.cursor()
             usuario_eliminar = str(input("Ingresa el titulo del recordatorio que desees eliminar: "))
