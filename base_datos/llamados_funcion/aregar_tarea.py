@@ -1,7 +1,7 @@
 import sqlite3
 
 def agregar_tarea():
-    with sqlite3.connect("C:\Users\POWER\gestor_tareas_2") as tarea:
+    with sqlite3.connect("C:/Users/POWER/gestor_tareas_2") as tarea:
         try:
             consulta_cursor = tarea.cursor()
             usuario_titulo = str(input("Ingrese el titulo de la tarea: "))

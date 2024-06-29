@@ -1,7 +1,7 @@
 import sqlite3
 
 def actualizar_tareas():
-    with sqlite3.connect("C:\Users\POWER\gestor_tareas_2") as actualizar:
+    with sqlite3.connect("C:/Users/POWER/gestor_tareas_2") as actualizar:
         try:
             consulta_cursor = actualizar.cursor()
             usuario_titulo = str(input("Ingrese el titulo del recordatorio: "))
